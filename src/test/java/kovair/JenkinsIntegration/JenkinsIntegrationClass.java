@@ -16,8 +16,8 @@ public class JenkinsIntegrationClass {
   @Test
   public void Test2() {
 	  System.out.println("In Test 2");
-	  //Assert.fail();
-	  Assert.assertTrue(true);
+	  Assert.fail();
+	  //Assert.assertTrue(true);
 	  
   }
   
