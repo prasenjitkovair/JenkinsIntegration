@@ -5,7 +5,7 @@
     <classes>
       <class name="kovair.JenkinsIntegration.JenkinsIntegrationClass">
         <methods>
-          <include name="Test2"/>
+          <include name="Test1"/>
         </methods>
       </class> <!-- kovair.JenkinsIntegration.JenkinsIntegrationClass -->
     </classes>
