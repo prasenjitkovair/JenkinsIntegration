@@ -3,7 +3,7 @@ package kovair.JenkinsIntegration;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class JenkinsIntegrationClass {
+public class JenkinsIntegrationTestNGClass {
   
 	
   @Test

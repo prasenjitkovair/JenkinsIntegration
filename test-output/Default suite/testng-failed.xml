@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="kovair.JenkinsIntegration.JenkinsIntegrationClass">
+      <class name="kovair.JenkinsIntegration.JenkinsIntegrationExtentReport">
         <methods>
+          <include name="BeforeTest"/>
           <include name="Test2"/>
-          <include name="Test1"/>
+          <include name="afterMethod"/>
+          <include name="AfterTest"/>
         </methods>
-      </class> <!-- kovair.JenkinsIntegration.JenkinsIntegrationClass -->
+      </class> <!-- kovair.JenkinsIntegration.JenkinsIntegrationExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
