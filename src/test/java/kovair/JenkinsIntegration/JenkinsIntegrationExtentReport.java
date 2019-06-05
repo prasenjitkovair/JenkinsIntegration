@@ -31,8 +31,8 @@ public class JenkinsIntegrationExtentReport {
         //configuration items to change the look and feel
         //add content, manage tests etc
         //htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setDocumentTitle("Extent Report Demo");
-        htmlReporter.config().setReportName("Test Report");
+        htmlReporter.config().setDocumentTitle("Jenkins Adapter Test Report");
+        htmlReporter.config().setReportName("Jenkins Adapter Test Report");
         //htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         //htmlReporter.config().setTheme(Theme.STANDARD);
         htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
