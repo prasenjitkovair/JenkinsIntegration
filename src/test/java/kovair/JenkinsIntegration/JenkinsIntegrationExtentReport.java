@@ -22,7 +22,7 @@ public class JenkinsIntegrationExtentReport {
 	@org.testng.annotations.BeforeTest
 	public  void BeforeTest()
 	{
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/testExtentReport.html");
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/extentReport/testExtentReport.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("OS", "Windows");

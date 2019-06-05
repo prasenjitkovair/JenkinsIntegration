@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1890" started-at="2019-06-05T07:07:56Z" finished-at="2019-06-05T07:07:58Z">
+  <suite name="Default suite" duration-ms="2889" started-at="2019-06-05T08:58:36Z" finished-at="2019-06-05T08:58:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1890" started-at="2019-06-05T07:07:56Z" finished-at="2019-06-05T07:07:58Z">
+    <test name="Default test" duration-ms="2889" started-at="2019-06-05T08:58:36Z" finished-at="2019-06-05T08:58:39Z">
       <class name="kovair.JenkinsIntegration.JenkinsIntegrationExtentReport">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="BeforeTest" is-config="true" duration-ms="888" started-at="2019-06-05T07:07:56Z" finished-at="2019-06-05T07:07:57Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="BeforeTest" is-config="true" duration-ms="1777" started-at="2019-06-05T08:58:36Z" finished-at="2019-06-05T08:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="Test1" duration-ms="19" started-at="2019-06-05T07:07:57Z" finished-at="2019-06-05T07:07:57Z">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="Test1" duration-ms="22" started-at="2019-06-05T08:58:38Z" finished-at="2019-06-05T08:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="afterMethod" is-config="true" duration-ms="165" started-at="2019-06-05T07:07:57Z" finished-at="2019-06-05T07:07:57Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="afterMethod" is-config="true" duration-ms="67" started-at="2019-06-05T08:58:38Z" finished-at="2019-06-05T08:58:38Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="Test2()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="Test2" duration-ms="3" started-at="2019-06-05T07:07:57Z" finished-at="2019-06-05T07:07:57Z">
+        <test-method status="FAIL" signature="Test2()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="Test2" duration-ms="5" started-at="2019-06-05T08:58:38Z" finished-at="2019-06-05T08:58:38Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -69,7 +69,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="afterMethod" is-config="true" duration-ms="9" started-at="2019-06-05T07:07:57Z" finished-at="2019-06-05T07:07:57Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="afterMethod" is-config="true" duration-ms="17" started-at="2019-06-05T08:58:38Z" finished-at="2019-06-05T08:58:38Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="AfterTest" is-config="true" duration-ms="730" started-at="2019-06-05T07:07:57Z" finished-at="2019-06-05T07:07:58Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:kovair.JenkinsIntegration.JenkinsIntegrationExtentReport@4b9e13df]" name="AfterTest" is-config="true" duration-ms="873" started-at="2019-06-05T08:58:38Z" finished-at="2019-06-05T08:58:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
