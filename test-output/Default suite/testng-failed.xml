@@ -5,7 +5,6 @@
     <classes>
       <class name="kovair.JenkinsIntegration.JenkinsIntegrationTestNGClass">
         <methods>
-          <include name="NGTest1"/>
           <include name="NGTest2"/>
         </methods>
       </class> <!-- kovair.JenkinsIntegration.JenkinsIntegrationTestNGClass -->
