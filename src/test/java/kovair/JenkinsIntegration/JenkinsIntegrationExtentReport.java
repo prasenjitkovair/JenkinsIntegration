@@ -40,14 +40,14 @@ public class JenkinsIntegrationExtentReport {
 	}
 	
 	@Test
-	public void Test1()
+	public void ExtentTest1()
 	{
 		test = extent.createTest("Test Case 1", "Passed test case");
         Assert.assertTrue(true);
 	}
 	
 	@Test
-	public void Test2()
+	public void ExtentTest2()
 	{
 		test = extent.createTest("Test Case 2", "Failed test case");
         Assert.assertTrue(false);

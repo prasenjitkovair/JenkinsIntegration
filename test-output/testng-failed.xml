@@ -3,10 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="kovair.JenkinsIntegration.JenkinsIntegrationTestNGClass">
+        <methods>
+          <include name="NGTest1"/>
+          <include name="NGTest2"/>
+        </methods>
+      </class> <!-- kovair.JenkinsIntegration.JenkinsIntegrationTestNGClass -->
       <class name="kovair.JenkinsIntegration.JenkinsIntegrationExtentReport">
         <methods>
           <include name="BeforeTest"/>
-          <include name="Test2"/>
+          <include name="ExtentTest2"/>
           <include name="afterMethod"/>
           <include name="AfterTest"/>
         </methods>
